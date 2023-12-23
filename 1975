@@ -18,7 +18,7 @@
     <category field="generic-base"/>
     <category field="science"/>
     <summary>This style just partly implemented what the Chinese GB/T 7714-1987 requires.</summary>
-    <updated>2023-12-23T14:34:25+00:00</updated>
+    <updated>2023-12-23T14:38:22+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -184,12 +184,12 @@
       <text variable="edition" prefix="第" suffix="版. "/>
       <text macro="publisher"/>
       <text macro="pageField" prefix=": "/>
-      <text macro="referenceDate"/>
       <choose>
         <if type="webpage" match="any">
           <text macro="access" prefix=". "/>
         </if>
       </choose>
+      <text macro="referenceDate"/>
       <text macro="recipient"/>
       <text macro="interviewer"/>
       <text macro="composer"/>
