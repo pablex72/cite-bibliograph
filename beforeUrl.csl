@@ -21,7 +21,7 @@
     <category citation-format="numeric"/>
     <category field="generic-base"/>
     <summary>The Chinese GB/T 7714-2005 numeric style</summary>
-    <updated>2023-12-23T13:36:49+00:00</updated>
+    <updated>2023-12-23T13:34:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="zh-CN">
@@ -375,8 +375,8 @@
     <group delimiter=". " suffix=".">
       <text macro="author"/>
       <text macro="title"/>
-      <text macro="periodical-publishing"/>
       <text macro="url-doi"/>
+      <text macro="periodical-publishing"/>
     </group>
   </macro>
   <macro name="patent-layout">
