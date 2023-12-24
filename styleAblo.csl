@@ -23,7 +23,7 @@
   </info>
   <macro name="author">
     <names variable="author">
-      <name initialize-with=" " name-as-sort-order="all" sort-separator=" " delimiter=", " delimiter-precedes-last="always"/>
+      <name initialize-with=". " name-as-sort-order="all" sort-separator=" " delimiter=", " delimiter-precedes-last="always"/>
     </names>
   </macro>
   <macro name="recipient">
